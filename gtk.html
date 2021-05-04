@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+
+
+    <title>JovarkOS</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top" id="windowTitle">
+        <div class="mx-auto">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <a href="#" rel="noopener noreferrer" class="no-effect">
+                            <div class="tabButton active">JovarkOS</div>
+                        </a>
+
+                    </div>
+                    <div class="col">
+                        <a href="https://github.com/lucasburlingham/JovarkOS" target="_blank" rel="noopener noreferrer"
+                            class="no-effect">
+                            <div class="tabButton">
+                                Github
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://sourceforge.net/projects/jovarkos/" target="_blank" rel="noopener noreferrer"
+                            class="no-effect">
+                            <div class="tabButton">
+                                Sourceforge
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <ul class="windowButtons">
+            <li class="minimizeButton windowElement">
+                <a onclick="browser.tabs.hide()">
+                    <?xml version="1.0" encoding="utf-8" ?>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+                        <rect x="8" y="11" fill="#d7d7d7" width="8" height="2" />
+                    </svg>
+                </a>
+            </li>
+            <li class="fullscreenButton windowElement">
+                <a onclick="openFullscreen()">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+                        <path fill="#d7d7d7" d="M14,14h-4v-4h4V14z M16,8H8v8h8V8z" />
+                    </svg>
+                </a>
+
+            </li>
+            <li class="closeButton windowElement">
+                <a onclick="window.close()">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+                        <path id="a" fill="#d7d7d7"
+                            d="M16,8c0,0,0,0.2-0.1,0.6c0,0.2-0.1,0.4-0.1,0.7c0,0.1-0.1,0.3-0.1,0.4c0,0.1-0.2,0.2-0.3,0.3c-0.7,0.7-1.7,1.7-2.7,2.7c-1,1-2,2-2.7,2.7c-0.1,0.1-0.1,0.2-0.3,0.3c-0.1,0-0.3,0.1-0.4,0.1c-0.2,0.1-0.5,0.1-0.7,0.1C8.2,16,8,16,8,16s0-0.2,0.1-0.6c0-0.2,0.1-0.4,0.1-0.7c0-0.1,0.1-0.3,0.1-0.4c0-0.1,0.2-0.2,0.3-0.3c0.7-0.7,1.7-1.7,2.7-2.7c1-1,2-2,2.7-2.7c0.1-0.1,0.1-0.2,0.3-0.3c0.1,0,0.3-0.1,0.4-0.1c0.2-0.1,0.5-0.1,0.7-0.1C15.7,8,16,8,16,8z" />
+                        <use xlink:href="#a" transform="matrix(-1,0,0,1,24,0)" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

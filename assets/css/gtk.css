@@ -1,0 +1,97 @@
+#messageType {
+  font-family: Comfortaa, cursive;
+}
+.btn-outline-discord {
+  outline-color: #7289da;
+  color: #7289da;
+}
+.btn-outline-discord:hover {
+  outline-color: #7289da;
+  background-color: #7289da;
+  color: #ffffff;
+}
+.btn-outline-reddit {
+  outline-color: #ff4500;
+  color: #ff4500;
+}
+.btn-outline-reddit:hover {
+  background-color: #ff4500;
+  color: #ffffff;
+}
+.btn-outline-element {
+  color: #0dbd8b;
+}
+.btn-outline-element:hover {
+  background-color: #0dbd8b;
+  color: #ffffff;
+}
+.hidden {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+.jumbotron-fluid {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+.padding-up {
+  padding-top: 1rem;
+}
+html,
+body {
+  background-color: #1a2832;
+}
+nav {
+  color: #ffffff;
+  background-color: #363636;
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+  padding: 0 0;
+}
+ul.windowButtons {
+  float: right;
+  list-style: none;
+}
+.windowButtons > * {
+  background-color: #363636;
+  display: inline-block;
+}
+.windowElement:hover > a {
+  transform: scale(1.1);
+  -webkit-filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+  filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+}
+.centered {
+  text-align: center;
+}
+.tabButton {
+  padding: 5px;
+  background-color: #272727;
+}
+.tabButton:hover {
+  border-color: #0091eb;
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+}
+.tabButton:first-of-type {
+  border-top-left-radius: 1.5px;
+  border-bottom-left-radius: 1.5px;
+}
+.tabButton:last-of-type {
+  border-top-right-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
+}
+.tabButton.active {
+  background: #0091eb;
+}
+.no-effect,
+.no-effect:hover,
+.no-effect:focus,
+.no-effect:active {
+  text-decoration: none;
+  color: inherit;
+}

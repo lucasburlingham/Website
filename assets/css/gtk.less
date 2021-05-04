@@ -1,0 +1,156 @@
+@reddit-red: #ff4500;
+@white: #ffffff;
+@element-green: #0dbd8b;
+@discord-purple: #7289da;
+
+@dark_bg_color: #434343;
+@dark_fg_color: #d7d7d7;
+
+@theme_bg_color: #1a2832;
+@theme_fg_color: #c4c4c4;
+
+@theme_base_color: #141414;
+@theme_text_color: #f2f2f2;
+
+@theme_selected_bg_color: #0091eb;
+@theme_selected_fg_color: #363636;
+
+@theme_tooltip_bg_color: #1a2832;
+@theme_tooltip_fg_color: #c4c4c4;
+
+@light_shadow: #1b2933;
+@dark_shadow: #272727;
+
+@info_fg_color: #141414;
+@info_bg_color: #5c00eb;
+
+@warning_fg_color: #141414;
+@warning_bg_color: #ff9100;
+
+@question_fg_color: #141414;
+@question_bg_color: #5c00eb;
+
+@error_fg_color: #141414;
+@error_bg_color: #ff0000;
+
+@link_color: #0000da;
+@success_color: #009100;
+@warning_color: #ff9100;
+@error_color: #ff0000;
+
+#messageType {
+  font-family: Comfortaa, cursive;
+}
+
+.btn-outline-discord {
+  outline-color: @discord-purple;
+  color: @discord-purple;
+}
+
+.btn-outline-discord:hover {
+  outline-color: @discord-purple;
+  background-color: @discord-purple;
+  color: @white;
+}
+
+.btn-outline-reddit {
+  outline-color: @reddit-red;
+  color: @reddit-red;
+}
+
+.btn-outline-reddit:hover {
+  background-color: @reddit-red;
+  color: @white;
+}
+
+.btn-outline-element {
+  color: @element-green;
+}
+
+.btn-outline-element:hover {
+  background-color: @element-green;
+  color: @white;
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.jumbotron-fluid {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.padding-up {
+  padding-top: 1rem;
+}
+
+html,
+body {
+  background-color: @theme_tooltip_bg_color;
+}
+
+nav {
+  color: @white;
+  background-color: @theme_selected_fg_color;
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+  padding: 0 0;
+}
+
+ul.windowButtons {
+  float: right;
+  list-style: none;
+}
+
+.windowButtons > * {
+  background-color: @theme_selected_fg_color;
+  display: inline-block;
+}
+
+.windowElement:hover > a {
+  transform: scale(1.1);
+  -webkit-filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+  filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+}
+
+.centered {
+  text-align: center;
+}
+
+.tabButton {
+  padding: 5px;
+  background-color: @dark_shadow;
+}
+
+.tabButton:hover {
+  border-color: @theme_selected_bg_color;
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+}
+.tabButton:first-of-type {
+  border-top-left-radius: 1.5px;
+  border-bottom-left-radius: 1.5px;
+}
+.tabButton:last-of-type {
+  border-top-right-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
+}
+.tabButton.active {
+  background: @theme_selected_bg_color;
+}
+
+.no-effect,
+.no-effect:hover,
+.no-effect:focus,
+.no-effect:active {
+  text-decoration: none;
+  color: inherit;
+}

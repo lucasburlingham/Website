@@ -1,0 +1,63 @@
+@white: #ffffff;
+@off-white: rgb(225, 225, 225);
+
+.align-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bg-light {
+  background-color: @white !important;
+}
+
+body {
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  vertical-align: bottom;
+}
+
+code {
+  color: inherit;
+}
+
+.navbar {
+  box-shadow: 0 10px 6px -6px rgb(225, 225, 225);
+}
+
+.text-shadow {
+  text-shadow: 5px 5px @off-white;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+.no-underline:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.page-break {
+  padding-top: 100vh;
+}
